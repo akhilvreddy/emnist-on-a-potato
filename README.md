@@ -1,1 +1,1 @@
-Deep learning on a fossil
+Companion repo for my blog post: [akhilvreddy.com/quantized-emnist](url)
