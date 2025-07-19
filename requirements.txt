@@ -1,0 +1,8 @@
+torch
+numpy
+pytest
+streamlit
+streamlit-drawable-canvas
+opencv-python
+torchvision
+scipy
