@@ -39,7 +39,7 @@ if canvas_result.image_data is not None:
     img = 255 - img
 
     com = center_of_mass(img)
-    shifted = shift(img, shift=np.array([14, 14]) - com)  # shift to center
+    shifted = shift(img, shift=np.array([14, 14]) - com) # shift to center
 
     img = img / 255.0
     img_tensor = torch.tensor(img, dtype=torch.float32).unsqueeze(0).unsqueeze(0).to(device)
