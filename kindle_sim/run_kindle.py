@@ -8,7 +8,7 @@ from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 import time
 
-model = torch.load("weights/emnist_cnn_dynamic_quantized.pt", map_location="cpu")
+model = torch.load("weights/emnist_cnn_dynamic_quantized.pt", map_location="cpu", weights_only=False)
 model.eval()
 
 transform = transforms.Compose([
